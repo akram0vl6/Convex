@@ -21,7 +21,8 @@ export const useTotalWeight = () => {
 const Header = () => {
   // const [authModal, setAuthModal] = useState(false);
   const [isFixed, setIsFixed] = useState(false);
-
+  console.log();
+  
   const [formData, setFormData] = useState({ name: "" });
 
   const navigate = useNavigate();
