@@ -213,7 +213,7 @@
   background-color: #ddd;
 }
 
-/* Показываем подменю при наведении */
+
 .dropdown:hover .submenu {
   display: block;
 }
