@@ -17,7 +17,10 @@ const OrderModal = ({ onClose, order, onDeliver }: any) => {
   };
 
   return (
-    <div className="modal-backdrop modal" onClick={onClose}>
+    <div
+      className="modal-backdrop overlay"
+      onClick={onClose}
+    >
       <div className="oders-modal">
         <div className="modal-window" onClick={(e) => e.stopPropagation()}>
           <button className="modal-close" onClick={onClose}>

@@ -71,7 +71,7 @@ const HistoryOrder = () => {
   });
 
   if (!sortedOrders.length) {
-    return <p className="empty-order">У вас пока нет заказов.</p>;
+    return <p className="empty-order">Загрузка...</p>;
   }
 
   const handlDelete = async (_id: string) => {

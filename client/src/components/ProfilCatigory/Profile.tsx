@@ -53,7 +53,7 @@ const Profile = () => {
   };
 
   return (
-    <div className="profile">
+    <div className="profile" data-aos="fade-left">
       <h1>Ваш профиль</h1>
       <div className="profil-input">
         <div className="profil-input1">

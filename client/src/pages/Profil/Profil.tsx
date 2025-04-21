@@ -20,6 +20,7 @@ import SupplierNotifications from "../../components/SupplierNotifications/Suppli
 import { parseJwt } from "../../helpers/infoUser";
 
 const Profil = () => {
+
   const navigate = useNavigate();
   const [user, setUser] = useState<any>();
   const handleLogout = () => {
@@ -57,13 +58,38 @@ const Profil = () => {
     handlGetUser();
   }, []);
 
+  const [displayedBalance, setDisplayedBalance] = useState(0);
+
+  useEffect(() => {
+    if (!user) return;
+
+    let start = 0;
+    const end = user.balance;
+    const duration = 1000; // длительность анимации в мс
+    const increment = end / (duration / 16); // примерно 60 кадров в секунду
+    let current = start;
+
+    const animate = () => {
+      current += increment;
+      if (current >= end) {
+        setDisplayedBalance(end);
+      } else {
+        setDisplayedBalance(Math.floor(current));
+        requestAnimationFrame(animate);
+      }
+    };
+
+    animate();
+  }, [user]);
+
+
   console.log(user);
   return (
     <div className="profil">
       <div className="profile-nav" data-aos="fade-right">
         <div className="profile-balance">
           <p>Ваш баланс:</p>
-          {user ? <h3>{user.balance} тг</h3> : <p>Загрузка...</p>}
+          {user ? <h3>{displayedBalance} тг</h3> : <p>Загрузка...</p>}
           <Link to={"/pay"}>
             <button>Пополнит баланс</button>
           </Link>
@@ -126,7 +152,7 @@ const Profil = () => {
           <button onClick={handleLogout}>Выйты</button>
         </div>
       </div>
-      <div data-aos="fade-left">
+      <div>
         <Routes>
           <Route index element={<Profile />} />
           <Route path="history" element={<HistoryOrder />} />
