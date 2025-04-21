@@ -1,0 +1,85 @@
+
+.main-placing-orde{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placing-order h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 500;
+    margin: 50px 0px;
+}
+
+.placing-order-input label{
+    display: block;
+    padding: 10px 0px;
+}
+
+.placing-order-input-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placing-order-input input{
+    display: block;
+    padding: 17px 15px;
+    width: 350px;
+    height: 50px;
+    border: 1px solid #A7AED2;
+    color: #A7AED2;
+    background: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.placing-order-total{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+}
+
+.placing-order-total h3{
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.placing-order-total p{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.placing-order button{
+    background-color: var(--main-color);
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin: 30px 0px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.placing-order-button{
+   text-align: center;
+}
+
+.placing-order button:hover{
+    background-color: #248A4C;
+}
+
+.or{
+    text-align: center;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 4px;
+}

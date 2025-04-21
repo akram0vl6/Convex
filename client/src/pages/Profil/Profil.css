@@ -1,0 +1,83 @@
+.profil {
+  margin-top: 50px;
+  display: flex;
+  gap: 50px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.profile-balance {
+  background-color: var(--main-color);
+  padding: 7px;
+  width: 209px;
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.profile-balance p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.profile-balance h3 {
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 19px;
+}
+
+.profile-balance button {
+  color: var(--main-color);
+  border: none;
+  background-color: #fff;
+  padding: 16px 40px;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.profile-catigory_item {
+  cursor: pointer;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+.profile-catigory_item.action{
+    color: var(--main-color);
+}
+.profile-catigory_item:hover{
+    color: var(--main-color);
+}
+.profile-catigory_item img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.profile-catigory_item.action img {
+  filter: none;
+}
+.profile-catigory_item span {
+  font-style: 18px;
+}
+
+.logaut{
+  margin-bottom: 30px;
+}
+
+.logaut button{
+  cursor: pointer;
+  background-color: red;
+  padding: 10px 25px;
+  border-radius: 7px;
+  color: #fff;
+  border: none;
+}

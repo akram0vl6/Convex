@@ -1,0 +1,29 @@
+
+.error-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0px;
+}
+
+.error-page-title h2{
+    font-size: 52px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.error-page-title p{
+    font-style: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.error-page-title button{
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 14px 43px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}

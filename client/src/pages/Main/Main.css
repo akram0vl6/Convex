@@ -1,0 +1,144 @@
+
+.main{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.main-1 {
+  background-color: var(--main-color);
+  display: flex;
+  height: 480px;
+  border-radius: 10px;
+}
+
+.main-title {
+  border-radius: 10px 0px 0px 10px;
+  background-color: var(--main-color);
+  padding: 50px 32px;
+}
+
+.main-title h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.main-title p{
+    width: 342px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 175px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.main-title button{
+    padding: 13px 40px;
+    background-color: var(--main-color);
+    color: #FFFFFF;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.main-title button:hover{
+    background-color: #4be087;
+}
+
+.main-img {
+  border-radius: 0px 10px 10px 0px;
+  overflow: hidden;
+}
+
+.main-img img {
+  margin-top: -16px;
+}
+
+
+.main-2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-item{
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.main-item h5{
+    font-size: 24px;
+    font-weight: 700;
+}
+.main-item {
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.item1 {
+    padding: 32px 20px;
+    padding-right: 150px;
+    background-color: #E43F3F;
+}
+.item2{
+    background-color: #7BB0FF;
+}
+.item2 img{
+    padding: 0px 30px;
+}
+.item3{
+
+    background-color: #8470FF;
+}
+.item3 img{
+    padding: 22px 30px;
+}
+.item4{
+      overflow: hidden;
+    padding: 0px;
+    background-color: #FDC352;
+}
+
+.item4 h5{
+    padding-left: 20px;
+}
+
+.item4 p{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+
+.item4 img{
+    margin-top: -10px;
+    margin-left: -13px;
+    padding-right: 20px;
+}
+
+.products{
+    margin-top: 80px;
+}
+
+.products h1{
+    color: var(--text-color);
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.all-products{
+    margin-top: -30px;
+    margin-left: 50px;
+}
+
+
+
+@media (max-width: 400px) {
+    .main-item{
+        width: 100%;
+    }
+}

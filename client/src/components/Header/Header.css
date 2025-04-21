@@ -1,0 +1,253 @@
+.header {
+  padding: 24px;
+  /* position: fixed; */
+}
+
+
+@media (max-width: 1269px) {
+    .section2{
+      display: none;
+    }
+}
+
+@media (max-width: 1095px) {
+    .section1-input{
+      display: none;
+    }
+}
+
+@media (max-width: 647px) {
+    .location-row{
+      display: none;
+    }
+}
+
+
+
+.link{
+  text-decoration: none;
+}
+
+.navbar{
+  position: static;
+}
+.fixed-navbar {
+  z-index: 999;
+  text-align: center;
+  position: fixed;
+  padding: 10px 0px 10px 100px;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 1600px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section1-row {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.section1-row p {
+  color: #a7aed2;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.section1-row a {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+.section1-row a:hover {
+  color: #46c578;
+}
+
+.section1-input {
+  position: relative;
+}
+
+.section1-input input {
+  border: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+  background-color: #f4f5fa;
+  padding: 14px 123px;
+  border-radius: 31px;
+}
+
+
+.section1_input:focus {
+  outline: none;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 131px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
+
+.input-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-adres {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.section-adres span {
+  margin-left: 25px;
+}
+
+.location {
+  display: flex;
+  gap: 10px;
+}
+
+.location p {
+  color: #46c578;
+}
+
+.section1-btn button {
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  border: 1px solid #c0c2cb;
+  border-radius: 21px;
+  padding: 8px 19px;
+  transition: all 0.4s ease;
+}
+
+.section1-btn button:hover {
+  background-color: #46c578;
+  color: #fff;
+}
+.section2 {
+  margin-top: 55px;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* на всякий случай для адаптивности */
+  gap: 15px;
+}
+
+.menu li {
+  position: relative;
+}
+
+.li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.li-img {
+  width: 12px;
+  height: 12px;
+  object-fit: contain;
+}
+
+/* Ссылки в главном меню */
+.menu > li > a {
+  display: block;
+  padding: 10px 10px;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.menu > li > a:hover {
+  background-color: #f0f0f0;
+  border-radius: 6px;
+}
+
+/* Подменю */
+.submenu {
+  display: none;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  list-style: none;
+  padding: 8px 0;
+  margin: 0;
+  min-width: 180px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+/* Элементы подменю */
+.submenu li a {
+  display: block;
+  padding: 10px 16px;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.submenu li a:hover {
+  background-color: #ddd;
+}
+
+/* Показываем подменю при наведении */
+.dropdown:hover .submenu {
+  display: block;
+}
+
+
+.cart{
+    cursor: pointer;
+    background-color: #46c578;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.cart:hover{
+  background-color: #248A4C;
+}
+
+.cart span{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.cart h3{
+    background-color: #74D69A;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.section1-btn-name p{
+  cursor: pointer;
+    color: #000000;
+    font-size: 18px;
+}

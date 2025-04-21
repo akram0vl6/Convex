@@ -1,0 +1,329 @@
+.profile label {
+  display: block;
+  padding: 10px 0px;
+  color: #a7aed2;
+}
+
+.profil-input {
+  margin: 30px 0px;
+  display: flex;
+  gap: 30px;
+}
+
+.profil-input input {
+  padding: 17px 15px;
+  width: 350px;
+  height: 50px;
+  border: 1px solid #a7aed2;
+  color: #a7aed2;
+  background: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.profil-input select {
+  padding: 17px 15px;
+  width: 350px;
+  height: 50px;
+  border: 1px solid #a7aed2;
+  color: #a7aed2;
+  background: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  appearance: none;
+}
+
+.profile button {
+  border: 1.5px solid var(--main-color);
+  color: var(--main-color);
+  padding: 16px 40px;
+  background: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 70px;
+  transition: all 0.3s ease;
+}
+
+.profile button:hover {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.historyOrder-item {
+  background-color: #f4f5fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.historyOrder-item_title {
+  display: flex;
+  align-items: center;
+  width: 800px;
+  justify-content: space-between;
+}
+
+.historyOrder-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.historyOrder-btn button {
+    cursor: pointer;
+  background-color: red;
+  border: none;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.status {
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.status.delivered {
+  background-color: #46c578;
+}
+
+.status.pending {
+  background-color: #fbbf24;
+}
+
+.empty-order {
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
+
+.historyOrder-item_title h1 {
+  color: var(--main-color);
+  margin-bottom: 25px;
+}
+
+.oreder-info {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.historyOrder-item h5 {
+  margin-top: 30px;
+  text-align: end;
+  cursor: pointer;
+  color: var(--main-color);
+  font-style: 15px;
+  font-weight: 400;
+}
+
+
+
+
+
+.promocode-nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+.promocode-nav li {
+  list-style: none;
+  cursor: pointer;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.promocode-nav li.active {
+  color: var(--main-color); /* Активный цвет */
+  font-weight: bold; /* Для выделения активного пункта */
+  border-bottom: 4px solid var(--main-color);
+}
+
+.active-promo_item {
+  background-color: #f4f5fa;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.add-promo-items p{
+  cursor: pointer;
+  color: var(--main-color);
+  padding: 10px;
+}
+
+.active-promo_item .ball {
+  background-color: var(--main-color);
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+.active-promo_item1 {
+  margin-right: 100px;
+}
+.active-promo_item1 p {
+  margin: 10px 0px;
+}
+.active-promo_item1 span {
+  color: var(--main-color);
+  padding-left: 5px;
+}
+
+.active-promo_item2 h3 {
+  color: var(--main-color);
+}
+
+.promoCode-add{
+  display: flex;
+  gap: 50px;
+}
+
+.add-promo-items h2{
+  margin-bottom: 30px;
+}
+
+.promo-item{
+  width: 600px;
+  height: 100px;
+  background-color: #f4f5fa;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+  accent-color: var(--main-color); /* Зеленый, как пример */
+  width: 15px;
+  height: 15px;
+  color: #fff;
+}
+
+
+.promo-item1{
+  display: flex;
+  align-items: center;
+}
+
+.promo-item img{
+  width: 100px;
+  height: auto;
+  padding: 20px;
+}
+
+.promo-item p{
+  color: var(--main-color);
+  text-align: end;
+}
+
+.promo-btn {
+  margin-left: 50px;
+}
+.promo-btn button {
+  background-color: red;
+  padding: 10px 15px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-product {
+  display: block;
+}
+
+.add-product label {
+  display: block;
+  padding: 10px 0px;
+}
+
+.product-input label {
+  display: block;
+  padding: 10px 0px;
+  color: #a7aed2;
+}
+
+.product-input {
+  margin: 30px 0px;
+  display: flex;
+  gap: 30px;
+}
+
+.product-input input {
+  padding: 17px 15px;
+  width: 350px;
+  height: 50px;
+  border: 1px solid #a7aed2;
+  color: #a7aed2;
+  background: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.add-product button {
+  border: 1.5px solid var(--main-color);
+  color: var(--main-color);
+  padding: 16px 40px;
+  background: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 70px;
+  transition: all 0.3s ease;
+}
+
+.add-product button:hover {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.your-products-row h1 {
+  margin: 30px 0px;
+}
+
+.your-products {
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f4f5fa;
+  padding: 20px;
+  border-radius: 10px;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.your-products img {
+  width: 100px;
+  height: auto;
+}
+
+.products-info {
+  margin-left: 40px;
+}
+
+.products-info .price {
+  color: var(--main-color);
+  font-size: 18px;
+}
+
+.products-btn button {
+  cursor: pointer;
+  background-color: red;
+  padding: 10px 25px;
+  border-radius: 7px;
+  color: #fff;
+  border: none;
+}

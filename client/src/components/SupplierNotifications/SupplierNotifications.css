@@ -1,0 +1,136 @@
+.notifications h1 {
+  margin-bottom: 50px;
+}
+
+.notifications-item-row {
+  max-width: 750px;
+  background-color: #f4f5fa;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.notifications-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.notifications-item-title {
+  display: flex;
+  align-items: center;
+}
+
+.notifications-item-title h3{
+    font-size: 18px;
+}
+
+.notifications-item-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.notifications-item-info p {
+  color: #a7aed2;
+  font-size: 14px;
+  font-weight: 400;
+}
+.notifications-item-info img {
+  cursor: pointer;
+}
+
+.notifications-item .ball {
+  background-color: var(--main-color);
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.notifications button {
+  margin-bottom: 100px;
+}
+
+.info-row {
+  display: block;
+}
+
+.info-product{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.info-product img{
+    width: 73px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.info-product p{
+    color: var(--main-color);
+    margin-left: 250px;
+}
+
+/* Контейнер уведомления */
+.notifications-item-row {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+
+/* Иконка поворота */
+.toggle-icon {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.toggle-icon.rotated {
+  transform: rotate(180deg);
+}
+
+/* Блок деталей */
+.info {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+/* Когда раскрыто */
+.info.expanded {
+  max-height: 200px; /* или auto, если не нужна анимация высоты */
+}
+
+/* Содержимое детали */
+.info-product {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+.info-product img {
+  width: 71px;
+  height: 40px;
+  object-fit: cover;
+}
+
+
+
+.notifications button {
+  border: 1.5px solid var(--main-color);
+  color: var(--main-color);
+  padding: 6px 20px;
+  background: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 70px;
+  transition: all 0.3s ease;
+}
+
+.notifications button:hover {
+  background-color: var(--main-color);
+  color: #fff;
+}

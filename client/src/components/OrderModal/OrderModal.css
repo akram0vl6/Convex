@@ -1,0 +1,119 @@
+/* .modal-backdrop {
+  position: fixed;
+  top: 20;
+  left: 0;
+  width: 100%;
+  height: 100vh; 
+  background: rgba(0, 0, 0, 0.5); 
+  overflow-y: hidden;
+} */
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.oders-modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orders-info h2{
+    margin-bottom: 15px;
+}
+
+.h3{
+   margin: 15px 0px;
+}
+
+.modal-window{
+    width: 700px;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 200px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.modalOrders-item-info p{
+    color: var(--main-color);
+}
+
+.modalOrders-products {
+  max-height: 300px;      /* или любая другая высота */
+  overflow-y: auto;       /* прокрутка вниз */
+  overflow-x: hidden;     /* запрещаем горизонтальную прокрутку */
+}
+
+.modal-close {
+  position: absolute; /* Абсолютное позиционирование */
+  top: 10px;           /* Отступ от верхнего края */
+  right: 10px;         /* Отступ от правого края */
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+strong{
+    margin-right: 10px;
+}
+
+.position-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-info{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.comment-p{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.modalOrders-img{
+    width: 40px;
+    height: 40px;
+}
+
+.modalOrders-item{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modalOrders-price{
+    color: var(--btn-color);
+}
+
+.total-order-btn{
+    background-color: var(--main-color);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.total-order-btn:hover{
+    background-color: #248A4C;
+}
+
+.order-time{
+    padding: 10px 0px;
+}

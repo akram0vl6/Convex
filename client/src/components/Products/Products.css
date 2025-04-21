@@ -1,0 +1,82 @@
+.products{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.products-item{
+    max-width: 250px;
+    margin-bottom: 30px;
+}
+
+.products-item h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.products-item span{
+    color: var(--main-color);
+}
+
+.products-item p{
+    margin: 5px 0px;
+}
+
+.priceAndBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.priceAndBtn p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF3D3D;
+}
+
+.btn-card{
+    cursor: pointer;
+    padding: 11px 28px;
+    border: none;
+    background-color: var(--main-color);
+    border-radius: 10px;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.btn-card:hover{
+    background-color: #248A4C;
+}
+
+.bascet-count-product{
+    padding: 11px 28px;
+    margin-right: 0px;
+}
+
+.product-user p{
+    font-size: 12px;
+    color: gray;
+}
+
+.action-like {
+    cursor: pointer;
+  color: #FF3D3D;
+  transition: transform 0.2s ease; /* плавная анимация */
+}
+
+.action-like:hover {
+    transform: scale(1.2); /* увеличиваем на 20% */
+}
+
+.no-action-like {
+
+    cursor: pointer;
+    transition: transform 0.3s ease; /* плавная анимация */
+}
+.no-action-like:hover {
+        color: #FF3D3D;
+  transform: scale(1.2); /* увеличиваем на 20% */
+}
+
